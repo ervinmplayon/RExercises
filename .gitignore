@@ -52,4 +52,5 @@ rsconnect/
 
 secrets.json
 oldSecrets.txt
+.env.json
 

@@ -1,9 +1,9 @@
 install.packages('rjson', repos = 'http://cran.us.r-project.org')
-library('rjson')
+library('jsonlite')
 
 credentials <- list()
-secretsJson <- fromJSON(file = 'secrets.json')
-
+secretsJson <- read_json('.env.json')
+print(secretsJson)
 # Loop would technically make sense but other than 5 of them, 
 # they all have differences in arguments passed
 
