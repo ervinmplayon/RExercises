@@ -49,3 +49,8 @@ po/*~
 rsconnect/
 
 .DS_Store 
+
+secrets.json
+oldSecrets.txt
+.env.json
+
