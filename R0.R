@@ -7,6 +7,6 @@ print(some_num)
 
 # Add anything here
 print("hey hey hey")
-print('Hello its William')
-print("William beat me to the repo!")
+print('sup')
+print("modal fatalism")
 
